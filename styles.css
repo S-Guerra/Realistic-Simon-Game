@@ -277,13 +277,11 @@ button.strict:active {
 	position: absolute;
 	width: 530px;
 	height: 20px;
-	background: linear-gradient(
-		90deg,
-		var(--simon-dark-1),
-		#111 32%,
-		#111 78%,
-		var(--simon-dark-1)
-	);
+	background: linear-gradient(90deg,
+			var(--simon-dark-1),
+			#111 32%,
+			#111 78%,
+			var(--simon-dark-1));
 }
 
 .y-separator {
@@ -295,14 +293,12 @@ button.strict:active {
 	width: 540px;
 	height: 540px;
 	border-radius: 50%;
-	background: radial-gradient(
-		circle at 50% 50%,
-		#3a3a3a 0%,
-		var(--simon-dark-2) 40%,
-		var(--simon-dark-1) 65%,
-		#0a0a0a 90%,
-		#000000 100%
-	);
+	background: radial-gradient(circle at 50% 50%,
+			#3a3a3a 0%,
+			var(--simon-dark-2) 40%,
+			var(--simon-dark-1) 65%,
+			#0a0a0a 90%,
+			#000000 100%);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	box-shadow: inset -8px -8px 20px rgba(0, 0, 0, 0.6),
@@ -328,11 +324,9 @@ button.strict:active {
 	height: 540px;
 	border-radius: 50%;
 	pointer-events: none;
-	background: radial-gradient(
-		ellipse at 35% 25%,
-		rgba(255, 255, 255, 0.08),
-		transparent 60%
-	);
+	background: radial-gradient(ellipse at 35% 25%,
+			rgba(255, 255, 255, 0.08),
+			transparent 60%);
 	z-index: 9999;
 }
 
